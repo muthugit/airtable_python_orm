@@ -1,4 +1,4 @@
--e git+https://github.com/muthugit/airtable_python_orm.git@5c2280f319232666dc6980f32d5fba2cd624c371#egg=Airtable_ORM
+# -e git+https://github.com/muthugit/airtable_python_orm.git@5c2280f319232666dc6980f32d5fba2cd624c371#egg=Airtable_ORM
 certifi==2022.9.24
 charset-normalizer==2.1.1
 idna==3.4
