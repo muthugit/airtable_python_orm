@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='Airtable ORM',
+    name='airtable_orm',
     version='1.0',
     description='ORM for Airtable tables',
     author='Muthupandian',

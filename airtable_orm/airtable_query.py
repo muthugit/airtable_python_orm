@@ -14,7 +14,6 @@ class AirtableQuery:
         self.entity = entity
 
     def all(self):
-        print(f'========{self.api_url}')
         res = requests.get(
             self.api_url,
             headers=self.header,
@@ -32,6 +31,5 @@ class AirtableQuery:
                     d[key] = None
                 d['id'] = data['id']
             new_data = self.entity(**d)
-            print(new_data)
             res.append(new_data)
         return res

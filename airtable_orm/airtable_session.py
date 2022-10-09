@@ -37,9 +37,7 @@ class AirtableSession:
         )
 
     def query(self, entity):
-        print(f"========{entity}")
         self.table_name = self.__get_table_name(entity)
-        print(f"========={self.table_name}")
         return AirtableQuery(
             api_url = self.get_api_url(self.table_name),
             header = self.headers,
